@@ -1,4 +1,5 @@
-dur = 1;
+seedRandom(1, true);
+dur = random(0.5, 1.5);
 minVal = 0;
 maxVal = 360
 
@@ -8,4 +9,4 @@ seedRandom(seed,true);
 startVal =  random(minVal,maxVal);
 seedRandom(seed+1,true);
 endVal = random(minVal,maxVal);
-ease(time,segStart,segStart + ((dur/4) * 5), startVal, endVal);	
+ease(time,segStart,segStart + ((dur/5) * 4), startVal, endVal);	
