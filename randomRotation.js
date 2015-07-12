@@ -8,4 +8,4 @@ seedRandom(seed,true);
 startVal =  random(minVal,maxVal);
 seedRandom(seed+1,true);
 endVal = random(minVal,maxVal);
-ease(time,segStart,segStart + dur/2, startVal, endVal);	
+ease(time,segStart,segStart + ((dur/4) * 5), startVal, endVal);	
