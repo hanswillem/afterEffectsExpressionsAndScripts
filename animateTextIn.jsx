@@ -1,5 +1,11 @@
-﻿//turns the selected text layer in a schape layer, explodes the layer to shape layers with
-//individual characters and offsets the layers one frame
+﻿/*
+Animate text in
+Copyright: Hans Willem Gijzel (hanswillemgijzel@gmail.com)
+After Effects 2015.3 release / version 13.8.0.144
+---
+turns the selected text layer in a schape layer, explodes the layer to shape layers with
+individual characters and offsets the layers one frame
+*/
 
 
 var sl = app.project.activeItem.selectedLayers[0];
