@@ -1,5 +1,5 @@
 // add three nuls called 'start', 'end', and 'mover'
-// add a text layer
+// add a text layer, and parent it to the 'mover' null
 // add the following to the 'source text' property
 
 var start = thisComp.layer("start").transform.position[0];
