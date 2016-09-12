@@ -1,3 +1,7 @@
+// add three nuls called 'start', 'end', and 'mover'
+// add a text layer
+// add the following to the 'source text' property
+
 var start = thisComp.layer("start").transform.position[0];
 var end = thisComp.layer("end").transform.position[0];
 var w = end - start;
