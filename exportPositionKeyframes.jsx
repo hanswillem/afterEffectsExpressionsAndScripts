@@ -12,7 +12,7 @@ function getKeyframes() {
     var maxFrames = comp.duration * 30;
 
     for (var frame = 0; frame < maxFrames; frame++) {
-        var pos = lyr.transform.position.valueAtTime(1 / 30 * frame, true);
+        var pos = lyr.transform.position.valueAtTime(1 / 30 * frame, true); // Note that '30' is the fps!!
         posx = pos[0];
         posy = pos[1];
         p.push([posx, posy, '*']);
