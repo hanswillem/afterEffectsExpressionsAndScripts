@@ -1,3 +1,9 @@
+/*
+Export position keyframes of the selected layer
+Copyright: Hans Willem Gijzel (hanswillemgijzel@gmail.com)
+After Effects 2015.3 release / version 13.8.0.144
+*/
+
 // get the position keyframes of the selected layer
 function getKeyframes() {
     p = [];
