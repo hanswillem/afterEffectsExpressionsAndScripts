@@ -11,4 +11,4 @@ var dupcmd = lyr_cmp.source.duplicate();
 
 app.project.activeItem.layers.add(dupcmd);
 
-cmp.remove();
+lyr_cmp.remove();
