@@ -8,7 +8,6 @@ duplicates the source comp of the selected layer, and replaces the old one with 
 
 var lyr_cmp = app.project.activeItem.selectedLayers[0];
 var dupcmd = lyr_cmp.source.duplicate();
-
-app.project.activeItem.layers.add(dupcmd);
-
+var duplyr = lyr_cmp.duplicate();
+duplyr.replaceSource(dupcmd, false);
 lyr_cmp.remove();
